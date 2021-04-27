@@ -1,0 +1,33 @@
+h1{
+    color: indigo;
+    background-color: papayawhip;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline wavy rgb(10, 6, 1);
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: Calibri;
+}
+h2{
+    color: teal;
+    background-color: darkkhaki;
+    font-weight: lighter;
+    font-family: cursive, Arial;
+}
+button{
+    color:violet; 
+    background-color:midnightblue;
+    font-weight: 800 ;
+    /* changes the color of text in the button */
+}
+p{
+    color:thistle;
+    background-color: rgb(0,0,0);
+    text-align: right;
+    font-weight: 700;
+    line-height: 5;
+    font-family:  Helvetica;
+}
+body{
+    background-color: #000000;
+}
