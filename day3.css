@@ -1,0 +1,69 @@
+h1{
+    color: indigo;
+    background-color: papayawhip;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline wavy rgb(10, 6, 1);
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: Calibri;
+}
+h2{
+    color: teal;
+    background-color: darkkhaki;
+    font-weight: lighter;
+    font-family: cursive, Arial;
+}
+#b{
+    background-color: black;
+    color: cornsilk;
+}
+button{
+    color:violet; 
+    background-color:midnightblue;
+    font-weight: 800 ;
+    /* changes the color of text in the button */
+}
+
+button:hover{
+    color:darkkhaki; 
+    background-color:cyan;
+    font-weight: 1000 ;
+}
+
+
+body{
+    background-color: #000000;
+}
+
+
+
+button:hover{
+    background-color: darkturquoise;
+    font-size:50px;
+}
+
+section{
+    width: 500px;
+    height:200px;
+    background-color: firebrick;
+    
+}
+h3
+{
+background-color: greenyellow;
+}
+
+section{
+    background-color: dimgray;
+    border-width: 10px;
+    border-top-color: indianred;
+    border-bottom-color: lightcoral;
+    border-left-color: lightgreen;
+    border-right-color: lightsteelblue;
+    border-left-style: double;
+    border-right-style: ridge;
+    border-top-style: dotted;
+    border-bottom-style: inset;
+    border-radius: 20px;
+}
