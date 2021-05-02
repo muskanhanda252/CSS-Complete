@@ -1,0 +1,17 @@
+#rems{
+    font-size:20px;
+}
+
+#rems h2{
+    /* duble the size of rems 20*2=40 */
+    font-size:2em;
+}
+
+#rems h3{
+    /* Half the size of rems 20/2=10 */
+    font-size:0.5em;
+}
+
+#rems ul{
+    font-size:1em; 
+}
