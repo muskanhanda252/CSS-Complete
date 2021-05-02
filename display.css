@@ -1,0 +1,37 @@
+h1{
+    background-color: darkkhaki;
+    color: darkolivegreen;
+    border: 1px solid black;
+    width:300px;
+    height:300px;
+    padding:10px;
+    margin:20px;
+    text-align: center;
+    /* Everything is respected */
+}
+span{
+    background-color: grey;
+    color: black;
+    width:50%;
+    /* width:10px; Doesn't work in inline elements  */
+margin:100px;  
+/* Margina and padding will work only in horizontal direction not vertical */
+}
+body {
+    margin:0;
+}
+section{
+    background-color: peachpuff;
+    color:rebeccapurple;
+    width:1000px;
+    height:1000px;
+}
+div{
+    background-color: oldlace;
+    color: palevioletred;
+    border: 5px solid grey;
+    height: 1000px;
+    width:100px;
+    display:inline-block;
+    margin:100px;
+}
