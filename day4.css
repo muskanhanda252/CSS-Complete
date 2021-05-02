@@ -1,0 +1,15 @@
+h1{
+    background-color: black;
+    color:cornsilk;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    margin-left:20px;
+}
+
+section{
+    border: 5px white solid;
+padding: 10px 5px ;
+margin: 5px;
+}
