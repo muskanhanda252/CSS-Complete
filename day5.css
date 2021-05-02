@@ -1,0 +1,38 @@
+section{
+    width:1000px;
+    height:500px;
+    margin:10px;
+    background-color: paleturquoise;
+}
+div{
+/* Div is the child f section, setting width 50% of that of parent */
+width:50%;
+height: 50%;
+background-color: palevioletred;
+}
+h1{
+    font-size:50px;
+    border: 1px solid black;
+    line-height: 100%;
+}
+article{
+    font-size:60px;
+}
+h2{
+    /* H2 is the child of article, we are changing its font size relative to its parent */
+font-size:2em;
+margin-left:0.5em;
+
+}
+
+p{
+    font-size:0.5em;
+}
+button{
+    font-size:30px;
+    padding:5px;
+border-radius:2em;
+}
+ul{
+    font-size:0.5em;
+}
