@@ -1,0 +1,50 @@
+section{
+    width: 500px;
+    height:500px;
+    background-color: rgb(33, 57, 58);
+}
+
+#Alpha{
+    width:500px;
+    height:500px;
+    background-color: rgb(127, 134, 134,0.3);
+}
+
+#testingforopacity{
+    width:500px;
+    height:500px;
+    background-color: rgb(189, 183, 107);
+    opacity:0.4; 
+}
+
+div{
+    width:100px;
+    height:100px;
+    background-color: darkolivegreen;
+    display:inline-block;
+    margin:20px;
+}
+
+#Mid{
+    width:100px;
+    height:100px;
+    background-color:darkslategrey;
+}
+
+#relative #Mid{
+    position:relative;
+    top:100px;
+    left:100px;
+}
+
+#absolute #Mid{
+    position:absolute;
+    top:1500px;
+    left:90px;
+}
+
+#fixed #Mid{
+    position:fixed;
+    top:600px;
+    left:10px;
+}
