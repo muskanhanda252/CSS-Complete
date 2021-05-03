@@ -1,0 +1,44 @@
+.trans{
+width:100px;
+height:100px;
+background-color:darkslategrey;
+transition-property: border-radius, background-color;
+transition-duration: 2s;
+transition-timing-function: ease;
+}
+
+.trans:hover{
+    border: 5px dotted black;
+    background-color: dimgray;
+    border-radius: 50%;
+}
+
+section div{
+    height:100px;
+    width:100px;
+    background-color:firebrick;
+    border: 2px solid black;
+    margin:100px;
+    transition: margin-left 3s;
+}
+
+section div:hover{
+    border: 4px groove grey;
+    margin-left: 300px;
+}
+
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.79, 0, 0.987, 1);
+}
