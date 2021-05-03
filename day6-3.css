@@ -1,0 +1,60 @@
+h1{
+    width:200px;
+    height:100px;
+    border:2px solid black;
+    padding:10px;
+    margin:auto;
+    background-color:gainsboro;
+    color:maroon;
+    font-family:cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h1:nth-of-type(2n){
+    background-color: mediumpurple;
+}
+
+h1:nth-of-type(3n){
+    background-color:navajowhite;
+}
+
+h1:nth-of-type(4n){
+    background-color:palevioletred;
+}
+
+section:first-of-type h1:nth-of-type(1){
+    transform: rotate(90deg);
+}
+
+section:first-of-type h1:nth-of-type(2){
+    transform: scale(0.5,1.3);
+}
+
+section:first-of-type h1:nth-of-type(3){
+    transform: translateX(200px);
+}
+
+section:first-of-type h1:nth-of-type(4){
+    transform: translate(50px,100px);
+}
+
+section:nth-of-type(2) h1:nth-of-type(1){
+    transform: skew(10deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(2){
+    transform: skew(10deg,60deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(3){
+    transform: skew(10deg,6deg) scaleX(2);
+}
+
+section:nth-of-type(2) h1:nth-of-type(4){
+    transform: rotate(20deg) translateY(100px) scaleY(1.3);
+}
+
+section:nth-of-type(2){
+    transform:rotate(90deg);
+}
