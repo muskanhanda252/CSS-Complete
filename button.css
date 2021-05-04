@@ -1,0 +1,25 @@
+body{
+    font-family: 'Times New Roman', Times, serif; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color:black;
+}
+
+button{
+    background: none;
+    color:burlywood;
+    border: 2px solid;
+    padding: 1em 1em;
+    font-size:1em;
+    transition: all 1s;
+}
+
+button:hover{
+    background-color:darkkhaki;
+    color:cornsilk;
+    box-shadow: 0 0.5em 0.5em -0.4em #fff936;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
