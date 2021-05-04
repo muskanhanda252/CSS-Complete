@@ -1,0 +1,22 @@
+body{
+    font-family: 'Kaushan Script', cursive;
+    color:whitesmoke;
+    margin: 0 auto;
+    font-size: 50px;
+    background: url("https://images.unsplash.com/photo-1493305457700-d3d24daf8c8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin:calc(10%/6);
+    transition: all 0.5s;
+}
+
+img:hover{
+    box-shadow: 0em 0.5em 0.6em 0.4em #615d5d;
+    border: 2px solid whitesmoke;
+    transform: translateY(-10px);
+}
