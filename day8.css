@@ -1,0 +1,18 @@
+#container{
+    background-color: cadetblue;
+    width:90%;
+    height:500px;
+    margin: 0 auto;
+    border: 5px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+#container div{
+    width:400px;
+    height:200px;
+    font-size: 5em;;
+}
